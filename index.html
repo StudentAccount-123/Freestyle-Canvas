@@ -123,7 +123,7 @@ context.lineWidth = 15
 context.strokeStyle = "#0029e2" // dark blue
 context.strokeRect(150, 120, 300, 25)
 */
-
+/*
 context.strokeStyle = "red";
 context.lineWidth = 5;
 context.fillStyle = "#0029e2"; //dark blue filled in color
@@ -133,7 +133,28 @@ context.arc(180, 225, 50, 18/12 * Math.PI, 24/12 * Math.PI);
 context.closePath();
 context.stroke();
 context.fill();
+*/
+/*
+// drawing a right triangle
+context.strokeStyle = "green" //color of the outline
+context.lineWidth = 7 // thickness of the outline
+context.fillStyle = "lightblue" // color of the interior
+context.beginPath();
+context.moveTo(50,50);
+context.lineTo(50,200);
+context.lineTo(150,200);
+context.closePath();
+context.fill();
+context.stroke();
+*/
 
+context.strokeStyle = "purple"; // color of the outline
+context.lineWidth = 3; // thickness of the outline
+context.fillStyle = "red"; // color of the interior
+context.beginPath();
+context.ellipse(225, 300, 120, 70, 6/12 * Math.PI, 0, 12/12 *Math.PI);
+context.fill();
+context.stroke();
 
 
     </script>
